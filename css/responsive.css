@@ -9,12 +9,7 @@
     .container{
         width: 100%;
     }
-    h2{
-        margin: 0;
-    }
-    h2.text-center{
-        padding-bottom: 30px;
-    }
+    
     h1{
         display: none;
         margin: 0;
@@ -26,6 +21,12 @@
         display: flex;
         align-items: center;
         
+    }
+    h2{
+        margin: 0;
+    }
+    h2.text-center{
+        padding-bottom: 30px;
     }
     .container{
         padding-top: 50px;
