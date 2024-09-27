@@ -1,0 +1,30 @@
+/* DESKTOP FIRST */
+/* media queries */
+@media (max-width:1160px){
+    .container{
+        width: 100%;
+    }
+}
+@media (max-width:768px) {
+    .container{
+        width: 100%;
+    }
+    h1{
+        display: none;
+    }
+}
+@media (max-width:480px) {
+    .row   {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .row  *{
+        flex-grow: 1;
+        max-width: 100%;
+    }
+    h1{
+        display: block;
+    }
+}
