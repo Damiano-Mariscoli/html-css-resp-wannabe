@@ -9,9 +9,15 @@
     .container{
         width: 100%;
     }
-    
+    h2{
+        margin: 0;
+    }
+    h2.text-center{
+        padding-bottom: 30px;
+    }
     h1{
         display: none;
+        margin: 0;
     }
 }
 @media (max-width:480px) {
